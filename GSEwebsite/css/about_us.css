@@ -31,11 +31,11 @@ p {
 }
 
 .img-col img {
-  margin-left: 15%;
+  margin-left: 17%;
 }
 
 .img-description {
-  margin-left: 34%;
+  margin-left: 36%;
 }
 
 /* Content */
@@ -82,5 +82,9 @@ p {
   .img-col img {
     margin-left: 0px;
     width: 99%;
+  }
+
+  .img-description {
+    margin-left: 34.5%;
   }
 }

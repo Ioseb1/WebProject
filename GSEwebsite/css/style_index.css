@@ -37,7 +37,6 @@ h1 {
   max-width: 100%;
   position: relative;
   height: auto;
-  width: auto;
   overflow: hidden;
 }
 
@@ -56,7 +55,7 @@ h1 {
 
 .col img {
   max-width: 100%;
-  height: auto;
+  height: 200px;
   width: auto;
   border-radius: 5px;
 }
@@ -89,6 +88,7 @@ text-row:after {
   width: 100%;
   position: relative;
   height: auto;
+  margin-bottom: 30px;
 }
 
 .row2:after {
@@ -106,7 +106,6 @@ text-row:after {
 
 .row2.1 {
   height: 80px;
-  margin: 50px 0 0 0;
 }
 
 .row2 .text-col2 {
@@ -412,6 +411,13 @@ text-row:after {
 }
 
 @media (max-width: 700px) {  /* .img1 class .img3*/
+  .col img {
+    max-width: 100%;
+    height: 150px;
+    width: auto;
+    border-radius: 5px;
+  }
+
   .img2 {
     height: 120%;
   }
@@ -467,6 +473,13 @@ text-row:after {
 }
 
 @media (max-width: 480px) { /* .img2 and .img3 .img4 footer*/
+  .col img {
+    max-width: 100%;
+    height: 100px;
+    width: auto;
+    border-radius: 5px;
+  }
+
   .img2 {
     margin-top: 70px;
     height: 120%;
@@ -544,27 +557,60 @@ text-row:after {
 }
 
 @media (max-width: 420px) {
+  .col img {
+    max-width: 100%;
+    height: 150px;
+    width: auto;
+    border-radius: 5px;
+  }
+
+  .img1 h1 {
+    font-size: 26px;
+  }
+
+  .img1 {
+    height: 180%;
+  }
+
+  .row1_1 .col img {
+    margin-left: 10px;
+    width: 80%;
+  }
+
   .row1_1 .col {
-    width: 40%;
+    width: 90%;
     background-color: white;
     float: left;
-    margin-left: 5%;
+    margin-left: 10%;
+  }
+
+  .row1_1 .col .text-col {
+    font-size: 16px;
+    margin-left: 17%;
+    border-bottom: 1px solid #fff;
+    font-size: 13px;
   }
 
   .btn {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .img2 {
     margin-top: 50px;
-    height: 130%;
+    height: 140%;
   }
 
   .img3 {
-    height: 60%;
+    height: 80%;
   }
 
+  .img3 .row3 {
+    height: 80%;
+  }
 
+  .img4 {
+    height: 110%;
+  }
 }
 
 
