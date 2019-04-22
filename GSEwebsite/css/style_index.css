@@ -110,7 +110,7 @@ text-row:after {
 }
 
 .row2 .text-col2 {
-  font-size: 30px;
+  font-size: 27px;
   font-family: 'Rajdhani', sans-serif;
   margin-right: 80px;
   letter-spacing: 0.15em;
@@ -541,6 +541,30 @@ text-row:after {
     width: 50%;
   }
   /* End Index html */
+}
+
+@media (max-width: 420px) {
+  .row1_1 .col {
+    width: 40%;
+    background-color: white;
+    float: left;
+    margin-left: 5%;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+
+  .img2 {
+    margin-top: 50px;
+    height: 130%;
+  }
+
+  .img3 {
+    height: 60%;
+  }
+
+
 }
 
 

@@ -77,3 +77,10 @@ p {
     font-size: 14px;
   }
 }
+
+@media (max-width: 420px) {
+  .img-col img {
+    margin-left: 0px;
+    width: 99%;
+  }
+}
