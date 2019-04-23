@@ -121,8 +121,8 @@ text-row:after {
 
 .under_h1 {
   transition: 0.5s;
-  width: 90%;
-  font-size: 37px;
+  width: 95%;
+  font-size: 53px;
 }
 
 .under_h1:hover {
