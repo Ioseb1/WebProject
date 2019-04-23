@@ -180,6 +180,10 @@ text-row:after {
   overflow: hidden;
 }
 
+.img3 a {
+  color: #000;
+}
+
 .row3::after {
   content: '';
   display: block;
