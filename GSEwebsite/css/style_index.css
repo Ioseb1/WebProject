@@ -97,8 +97,15 @@ text-row:after {
   clear: both;
 }
 
-.row2 .col2 {
-  width: 45%;
+.row2 .col2-1 {
+  width: 35%;
+  float: left;
+  margin-left: 0%;
+  border-radius: 5px;
+}
+
+.row2 .col2-2 {
+  width: 55%;
   float: left;
   margin-left: 5%;
   border-radius: 5px;
@@ -111,12 +118,12 @@ text-row:after {
 .row2 .text-col2 {
   font-size: 27px;
   font-family: 'Rajdhani', sans-serif;
-  margin-right: 80px;
   letter-spacing: 0.15em;
-  padding: 15px;
+  padding: 10px;
   position: relative;
   border-radius: 3px;
-  margin-right: 2%
+  margin-right: 20%
+  text-align: left;
 }
 
 .under_h1 {
@@ -141,7 +148,7 @@ text-row:after {
   border-radius: 3px;
   shadow: 10px black;
   box-shadow: 5px 10px #888888;
-  margin-left: 4%;
+  margin-left: 12%;
 }
 
 .btn {
@@ -332,7 +339,13 @@ text-row:after {
     height: 120%;
   }
 
-  .row2 .col2 {
+  .row2 .col2-2 {
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+  }
+
+  .row2 .col2-1 {
     width: 100%;
     float: left;
     border-radius: 5px;
@@ -496,6 +509,10 @@ text-row:after {
     margin-left: 0;
   }
 
+  .row2.1 {
+    margin-bottom: 20px;
+  }
+
   .row2 .text-col2 {
     font-size: 15px;
     font-family: 'Rajdhani', sans-serif;
@@ -581,6 +598,10 @@ text-row:after {
     width: 80%;
   }
 
+  .row2.1 {
+    margin-bottom: 50px;
+  }
+
   .row1_1 .col {
     width: 90%;
     background-color: white;
@@ -601,7 +622,7 @@ text-row:after {
 
   .img2 {
     margin-top: 50px;
-    height: 140%;
+    height: 160%;
   }
 
   .img3 {

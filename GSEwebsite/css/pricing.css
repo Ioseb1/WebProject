@@ -27,11 +27,13 @@ h1 {
 .bLink {
     font-size: 25px;
     color: #fff;
+    margin-top: 25px;
     margin-left: 5px;
 }
 
 i {
   margin-left: 10px;
+  margin-top: 25px;
 }
 
 .bLink:hover {
@@ -54,6 +56,10 @@ i {
   font-size: 0.9rem;
   letter-spacing: .1rem;
   font-weight: bold;
+}
+
+.fa-ul .fa-li {
+  margin-top: -25px;
 }
 
 .pricing .card-price {

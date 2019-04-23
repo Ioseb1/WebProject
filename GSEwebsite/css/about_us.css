@@ -31,11 +31,18 @@ p {
 }
 
 .img-col img {
-  margin-left: 17%;
+  margin-left: 0%;
+  width: 100%;
 }
 
 .img-description {
-  margin-left: 36%;
+  margin-left: 33.5%;
+}
+
+.glry {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  letter-spacing: 0.2em;
 }
 
 /* Content */
@@ -57,7 +64,7 @@ p {
 
 @media (max-width: 481px) {
   .img-col img {
-    margin-left: 7%;
+    margin-left: 0%;
   }
 
   .img-description {
@@ -85,6 +92,6 @@ p {
   }
 
   .img-description {
-    margin-left: 34.5%;
+    margin-left: 32.5%;
   }
 }

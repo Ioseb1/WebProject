@@ -12,6 +12,13 @@ html, body {
   background: linear-gradient(to top, #fff, #cc6600);
 }
 
+/*.hh1 {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  border-bottom: 1px solid #fff;
+}*/
+
 h1 {
   font-size: 57px;
   font-weight: lighter;
@@ -25,6 +32,7 @@ h1 {
 }
 
 .bLink {
+  margin-top: 25px;
   margin-left: 5px;
   font-size: 25px;
   color: #fff;
@@ -32,6 +40,7 @@ h1 {
 
 i {
   margin-left: 10px;
+  margin-top: 25px;
 }
 
 .bLink:hover {
@@ -49,7 +58,7 @@ i {
 
 h1 {
   text-align: center;
-  margin-top: 40px;;
+  margin-top: 35px;;
 }
 
 h6 {
@@ -65,13 +74,45 @@ h6 {
   margin-bottom: 50px;
 }
 
+@media (max-width: 481px) {
+  h1 {
+    font-size: 43px;
+  }
+
+  .year {
+    margin-bottom: 0px;
+  }
+
+  .bLink {
+    font-size: 20px;
+  }
+
+  .icon {
+    margin-top: 45px;
+    margin-bottom: 10px;
+  }
+
+  footer h5 {
+    font-size: 15px;
+  }
+}
+
 @media (max-width: 420px) {
   h1 {
     font-size: 43px;
   }
 
+  .year {
+    margin-bottom: 0px;
+  }
+
   .bLink {
     font-size: 20px;
+  }
+
+  .icon {
+    margin-top: 45px;
+    margin-bottom: 10px;
   }
 
   footer h5 {
