@@ -110,6 +110,17 @@ h1 {
   margin-left: 5%;
 }
 
+.social-col {
+  margin-top: 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.social {
+  margin-left: 10px;
+}
+
 
 footer {
   margin-top: 30px;
@@ -123,5 +134,15 @@ footer {
 
   footer h5 {
     font-size: 15px;
+  }
+
+  .social-col {
+
+  }
+}
+
+@media (max-width:420px) {
+  .social-col {
+
   }
 }

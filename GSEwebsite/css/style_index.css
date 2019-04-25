@@ -276,6 +276,17 @@ text-row:after {
 }
 /* End  Img 4 */
 
+/* Footer */
+
+.social-col {
+  text-align: center;
+}
+.social {
+  margin-right: 10px;
+}
+
+
+
 /* Responsive Design */
 
 @media (min-width: 1500px) {
